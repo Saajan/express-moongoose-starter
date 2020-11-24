@@ -1,27 +1,31 @@
 # RESTful API Node Server Boilerplate
 
-[![Build Status](https://travis-ci.org/hagopj13/node-express-mongoose-boilerplate.svg?branch=master)](https://travis-ci.org/hagopj13/node-express-mongoose-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/hagopj13/node-express-mongoose-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/hagopj13/node-express-mongoose-boilerplate?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2ab03f5d62a1404f87a659afe8d6d5de)](https://www.codacy.com/manual/hagopj13/node-express-mongoose-boilerplate?utm_source=github.com&utm_medium=referral&utm_content=hagopj13/node-express-mongoose-boilerplate&utm_campaign=Badge_Grade)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
 A boilerplate/starter project for quickly building production-ready RESTful APIs using Node.js, Express, and Mongoose.
 
 It comes with many built-in features, such as authentication using JWT, request validation, unit and integration tests, continuous integration, docker support, API documentation, pagination, etc. For more details about the features, check the list below.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Error Handling](#error-handling)
-- [Validation](#validation)
-- [Authentication](#authentication)
-- [Authorization](#authorization)
-- [Logging](#logging)
-- [Custom Mongoose Plugins](#custom-mongoose-plugins)
-- [Linting](#linting)
+- [RESTful API Node Server Boilerplate](#restful-api-node-server-boilerplate)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Commands](#commands)
+  - [Project Structure](#project-structure)
+  - [API Documentation](#api-documentation)
+    - [API Endpoints](#api-endpoints)
+  - [Error Handling](#error-handling)
+  - [Validation](#validation)
+  - [Authentication](#authentication)
+  - [Authorization](#authorization)
+  - [Logging](#logging)
+  - [Custom Mongoose Plugins](#custom-mongoose-plugins)
+    - [toJSON](#tojson)
+    - [paginate](#paginate)
+  - [Linting](#linting)
+  - [Fork](#fork)
+  - [License](#license)
 
 ## Features
 
@@ -55,8 +59,8 @@ It comes with many built-in features, such as authentication using JWT, request 
 Clone the repo:
 
 ```bash
-git clone https://github.com/hagopj13/node-express-mongoose-boilerplate.git
-cd node-express-mongoose-boilerplate
+git clone https://github.com/saajan/express-mongo-starter.git
+cd express-mongo-starter
 ```
 
 Install the dependencies:
@@ -380,15 +384,9 @@ To prevent a certain file or directory from being linted, add it to `.eslintigno
 
 To maintain a consistent coding style across different IDEs, the project contains `.editorconfig`
 
-## Contributing
+## Fork
 
-Contributions are more than welcome! Please check out the [contributing guide](CONTRIBUTING.md).
-
-## Inspirations
-
-- [danielfsousa/express-rest-es2017-boilerplate](https://github.com/danielfsousa/express-rest-es2017-boilerplate)
-- [madhums/node-express-mongoose](https://github.com/madhums/node-express-mongoose)
-- [kunalkapadia/express-mongoose-es6-rest-api](https://github.com/kunalkapadia/express-mongoose-es6-rest-api)
+- [Fork](https://github.com/hagopj13/node-express-mongoose-boilerplate) from https://github.com/hagopj13/node-express-mongoose-boilerplate
 
 ## License
 
